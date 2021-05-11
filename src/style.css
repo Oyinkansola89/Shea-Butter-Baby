@@ -1,0 +1,90 @@
+h1,
+h2 {
+  text-align: center;
+  color: rgb(134, 108, 71);
+  font-family: fantasy;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 52px;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  word-spacing: 2mm;
+  margin-top: 0mm;
+  margin-bottom: 5px;
+  font-weight: bold;
+  line-height: 8mm;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px 10px 35px;
+  border: 1px solid #50342a;
+  background: transparent;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 6px 5px 4px rgb(112, 71, 9);
+  outline: none;
+}
+
+hr {
+  border: 1px solid rgb(105, 77, 26);
+}
+
+.mamacita {
+  display: block;
+  margin: 0 auto;
+  width: 130px;
+  padding: 25px;
+  border: 1px solid rgb(145, 112, 69);
+  max-width: 100%;
+}
+
+.about-shea {
+  color: #200c04;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.shea {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+p.tag {
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  background-image: linear-gradient(to top, #a0783c 0%, #e0cd89 100%);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background: #946857;
+  cursor: pointer;
+  color: tan;
+  border-color: rgb(214, 178, 132);
+}
