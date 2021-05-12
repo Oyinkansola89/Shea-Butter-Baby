@@ -64,6 +64,7 @@ hr {
   display: block;
   margin: 0 auto;
   padding-bottom: 15px;
+  opacity: 0.7;
 }
 
 p.tag {
