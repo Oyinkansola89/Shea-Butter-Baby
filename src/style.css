@@ -59,12 +59,16 @@ hr {
   line-height: 1.5;
 }
 
+.science {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
 .shea {
   width: 350px;
   display: block;
   margin: 0 auto;
   padding-bottom: 15px;
-  opacity: 0.7;
 }
 
 p.tag {
